@@ -1,0 +1,32 @@
+body {
+    background: #28b5ed;
+
+    font-family: "Arimo", sans-serif;
+}
+
+h1 {
+    text-shadow: 2px 2px 2px #D65656;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #AC3030;
+    font-family: "Alumni Sans SC", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+hr {
+    border: 0;
+    background: #AC3030;
+    height: 2px;
+}
+
+table {
+    background-color: #D65656;
+}
+
+ul {
+    background-color: #D65656;
+}
