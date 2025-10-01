@@ -2,134 +2,138 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <title>A Digital CV</title>
-  <link rel="stylesheet" href="css2.css">
-  <!-- Google fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap"
-    rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>A Digital CV</title>
+    <link rel="stylesheet" href="css2.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-  <!-- <img> Self-portrait will go here -->
-  <header>
-    <img id="self" src="self.jpg" alt="Picture of Randal VanBeek" height="180px" />
-     <h1>Randal VanBeek ll</h1>
-    <p class="Contact">Phone: 253-831-8896</p>
-    <p class="Contact">Email: ranzono@outlook.com</p>
-  </header>
-  <hr>
-  <section>
-    <!--Contains personal info-->
-    <h2>Summary</h2>
-    <p>I am an aspiring developer trying to break into the tech field. My ultimate goal is to become a game designer.
-      I want to make games, so I'm learning different computer languages and web development to pursue that career.
-    </p><br>
+    <!-- <img> Self-portrait will go here -->
+    <header>
+        <img id="self" src="self.jpg" alt="Picture of Randal VanBeek" height="180px" />
+        <h1>Randal VanBeek ll</h1>
+        <p class="Contact">Phone: 253-831-8896</p>
+        <p class="Contact">Email: ranzono@outlook.com</p>
+    </header>
     <hr>
-</section>
-<section id="information">
+    <section>
+        <!--Contains personal info-->
+        <h2>Summary</h2>
+        <p>I am an aspiring developer trying to break into the tech field. My ultimate goal is to become a game
+            designer.
+            I want to make games, so I'm learning different computer languages and web development to pursue that
+            career.
+        </p><br>
+        <hr>
+    </section>
     <h2>Education</h2>
     <ul>
-      <li>Ephesians Educational Homeschool </li>
-      <li>SpringBoard Software Development Certificate</li>
+        <li>Ephesians Educational Homeschool </li>
+        <li>SpringBoard Software Development Certificate</li>
     </ul>
-  
-  <table>
-    <h2>Prior Employment</h2>
-    <thead>
-      <tr>
-        <th>Place of Work</th>
-        <th>Job Title</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Taco Bell</td>
-        <td>"Food Champion"</td>
-      </tr>
-      <tr>
-        <td>Walmart</td>
-        <td>Cashier then Auto Service Writer</td>
-      </tr>
-      <!--Table listing former jobs-->
-    </tbody>
-  </table>
+
+    <table>
+        <h2>Prior Employment</h2>
+        <thead>
+            <tr>
+                <th>Place of Work</th>
+                <th>Job Title</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Taco Bell</td>
+                <td>"Food Champion"</td>
+            </tr>
+            <tr>
+                <td>Walmart</td>
+                <td>Cashier then Auto Service Writer</td>
+            </tr>
+            <!--Table listing former jobs-->
+        </tbody>
+    </table>
+
     <h2>Tech and Programs used</h2>
-    <h3>Web dev</h3>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <!--Once program is complete obviously-->
-    </ul>
-    <h3>Other programs</h3>
-    <ul>
-      <li>Blender</li>
-    </ul>
-  </section>
-  <hr>
-  <section>
-    <h2>Projects</h2>
-    <!--Will fill with further projects and some personal stuff-->
-    <p>Projects, wait and see what goes here.</p>
-    <img src="Placeholder.jpg" height="200px" alt="A Placeholder Image">
-    <!-- will add descriptions, images, and links as projects are completed -->
-    <ul>
-      <li>One Project</li>
-      <li>Something else</li>
-      <li>I'll put links here later, I'm sure.</li>
-    </ul>
-     <h2>Reach out</h2>
-    <hr>
-    <section id="form">
-    <p>
-      <i>If you would like to have a chat leave your info here!</i>
-      <br>
-      <small>Items with a * are requierd.</small>
-    </p>
-    <!-- Conatct forms-->
-    <form method="post" enctype="multipart/form-data">
-      <label>
-        Name of person or Business * 
-        <br>
-        <input type="text" name="name" placeholder="Name" required>
-      </label>
-      <br><br>
-      <label>
-        Enter Email: * 
-        <br> 
-        <input type="email" name="email" placeholder="Email Address" required>
-      </label>
-      <br><br>
-      <label>
-        Phone Number: <input type="text" name="phone" placeholder="Enter Phone..." minlength="10" maxlength="20">
-        <!-- Intentionally left phone as not needed-->
-      </label>
-      <br><br>
-      <label>
-        Reason for Contact: * <br><br>
-        <input type="radio" name="reason" value="job" required> Job Offer <br><br>
-        <input type="radio" name="reason" value="project" required> Project Inquiry<br><br>
-        <input type="radio" name="reason" value="other" required> Other<br><br>
-        <label>
-          Extra Message: <br>
-          <textarea name="message" rows="3" cols="40" placeholder="Anything Else?"></textarea>
-        </label>
-        <!--In case any extra details need to be provided-->
-        <br><br>
-        <label>
-          Submit info --> <button>Submit</button>
-        </label>
-    </form>
+    <section id="Tech">
+        <h3>Web dev</h3>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <!--Once program is complete obviously-->
+        </ul>
+        <h3>Other programs</h3>
+        <ul>
+            <li>Blender</li>
+        </ul>
     </section>
-    <!-- double spaced with <br> because I don't yet know how to space better.-->
-  </section>
+    <hr>
+    <section>
+        <h2>Projects</h2>
+        <!--Will fill with further projects and some personal stuff-->
+        <p>Projects, wait and see what goes here.</p>
+        <img src="Placeholder.jpg" height="200px" alt="A Placeholder Image">
+        <!-- will add descriptions, images, and links as projects are completed -->
+        <ul>
+            <li>One Project</li>
+            <li>Something else</li>
+            <li>I'll put links here later, I'm sure.</li>
+        </ul>
+        <h2>Reach out</h2>
+        <hr>
+        <section id="form">
+            <p>
+                <i>If you would like to have a chat leave your info here!</i>
+                <br>
+                <small>Items with a * are requierd.</small>
+            </p>
+            <!-- Conatct forms-->
+            <form method="post" enctype="multipart/form-data">
+                <label>
+                    Name of person or Business *
+                    <br>
+                    <input type="text" name="name" placeholder="Name" required>
+                </label>
+                <br><br>
+                <label>
+                    Enter Email: *
+                    <br>
+                    <input type="email" name="email" placeholder="Email Address" required>
+                </label>
+                <br><br>
+                <label>
+                    Phone Number: <input type="text" name="phone" placeholder="Enter Phone..." minlength="10"
+                        maxlength="20">
+                    <!-- Intentionally left phone as not needed-->
+                </label>
+                <br><br>
+                <label>
+                    Reason for Contact: * <br><br>
+                    <input type="radio" name="reason" value="job" required> Job Offer <br><br>
+                    <input type="radio" name="reason" value="project" required> Project Inquiry<br><br>
+                    <input type="radio" name="reason" value="other" required> Other<br><br>
+                    <label>
+                        Extra Message: <br>
+                        <textarea name="message" rows="3" cols="40" placeholder="Anything Else?"></textarea>
+                    </label>
+                    <!--In case any extra details need to be provided-->
+                    <br><br>
+                    <label>
+                        Submit info --> <button>Submit</button>
+                    </label>
+            </form>
+        </section>
+        <!-- double spaced with <br> because I don't yet know how to space better.-->
+    </section>
 </body>
 
 </html>
