@@ -19,13 +19,12 @@
 <body>
   <!-- <img> Self-portrait will go here -->
   <header>
-    <h1>Randal VanBeek ll</h1>
-    <hr>
-    <h2>Contact info</h2>
-    <!--Self-explanatory-->
-    <p>Phone: 253-831-8896</p>
-    <p>Email: ranzono@outlook.com</p>
+    <img id="self" src="self.jpg" alt="Picture of Randal VanBeek" height="180px" />
+     <h1>Randal VanBeek ll</h1>
+    <p class="Contact">Phone: 253-831-8896</p>
+    <p class="Contact">Email: ranzono@outlook.com</p>
   </header>
+  <hr>
   <section>
     <!--Contains personal info-->
     <h2>Summary</h2>
@@ -33,13 +32,14 @@
       I want to make games, so I'm learning different computer languages and web development to pursue that career.
     </p><br>
     <hr>
-
+</section>
+<section id="information">
     <h2>Education</h2>
     <ul>
       <li>Ephesians Educational Homeschool </li>
       <li>SpringBoard Software Development Certificate</li>
     </ul>
-  </section>
+  
   <table>
     <h2>Prior Employment</h2>
     <thead>
@@ -60,7 +60,6 @@
       <!--Table listing former jobs-->
     </tbody>
   </table>
-  <section>
     <h2>Tech and Programs used</h2>
     <h3>Web dev</h3>
     <ul>
@@ -79,15 +78,16 @@
     <h2>Projects</h2>
     <!--Will fill with further projects and some personal stuff-->
     <p>Projects, wait and see what goes here.</p>
-    <img src="download.webp" height="200px" alt="Placeholder">
+    <img src="Placeholder.jpg" height="200px" alt="A Placeholder Image">
     <!-- will add descriptions, images, and links as projects are completed -->
     <ul>
       <li>One Project</li>
       <li>Something else</li>
       <li>I'll put links here later, I'm sure.</li>
     </ul>
+     <h2>Reach out</h2>
     <hr>
-    <h2>Reach out</h2>
+    <section id="form">
     <p>
       <i>If you would like to have a chat leave your info here!</i>
       <br>
@@ -96,11 +96,15 @@
     <!-- Conatct forms-->
     <form method="post" enctype="multipart/form-data">
       <label>
-        Name of person or Business * <input type="text" name="name" placeholder="Name" required>
+        Name of person or Business * 
+        <br>
+        <input type="text" name="name" placeholder="Name" required>
       </label>
       <br><br>
       <label>
-        Enter Email: * <input type="email" name="email" placeholder="Email Address" required>
+        Enter Email: * 
+        <br> 
+        <input type="email" name="email" placeholder="Email Address" required>
       </label>
       <br><br>
       <label>
@@ -122,7 +126,9 @@
         <label>
           Submit info --> <button>Submit</button>
         </label>
-    </form><!-- double spaced with <br> because I don't yet know how to space better.-->
+    </form>
+    </section>
+    <!-- double spaced with <br> because I don't yet know how to space better.-->
   </section>
 </body>
 
