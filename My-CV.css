@@ -1,0 +1,102 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body {
+   background: #7a40c7;
+background: radial-gradient(circle,rgba(122, 64, 199, 1) 0%, rgba(164, 70, 252, 1) 100%);
+    font-family: "Arimo", sans-serif;
+}
+h1 {
+    text-shadow: 2px 2px 2px #C49C16;
+    position: absolute;
+    top: 120px;
+    transition: transform color 3s cubic-bezier(0.83, 0, 0.17, 1);
+}
+h1:hover {
+    border: 2px solid #C49C16;
+    background-color: #c79cff;
+     text-shadow: 2px 2px 2px #7a40c7;
+    
+}
+h2:hover {
+    border: 2px solid #C49C16;
+    background-color: #c79cff;
+     text-shadow: 2px 2px 2px #7a40c7;
+     text-decoration: #7a40c7 underline;
+}
+#self {
+    align-self: flex-start;
+    border-radius: 50%;
+    border: #C49C16 3px solid;
+}
+p {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.Contact {
+    align-self: flex-end;
+    text-decoration: underline #C49C16;
+}
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #C49C16;
+    font-family: "Alumni Sans SC", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+h3{
+    position: relative;
+    margin-left: 40%;
+}
+hr {
+    border: 0;
+    background: #C49C16;
+    height: 2px;
+}
+
+table {
+    text-decoration: underline #C49C16;
+     position: relative;
+    margin-left: 40%;
+}
+ul {
+    text-decoration: underline #C49C16;
+    position: relative;
+    margin-left: 40%;
+}
+ul #projects {
+    display: flexbox;
+
+}
+a {
+    text-decoration: underline #C49C16;
+    color: black;
+}    
+a:hover {
+    color: #28b5ed;
+    background-color: #c79cff;
+    text-decoration: underline #28b5ed;
+}
+ #form { 
+    display: flex;
+    flex-direction: column;
+} 
+form {
+    align-self: center;
+    background: #C49C16;
+}
+Form :hover {
+    background: #c79cff;
+}
+
+input:focus {
+    background: #7a40c7;
+}
+
+textarea:focus {
+    background: #7a40c7;
+}
