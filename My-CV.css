@@ -1,7 +1,11 @@
-header {
+/* header H1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+} */
+.Contact{
+    text-align: right;
+    margin-right: 5%;
 }
 body {
    background: #7a40c7;
@@ -9,8 +13,8 @@ background: radial-gradient(circle,rgba(122, 64, 199, 1) 0%, rgba(164, 70, 252, 
     font-family: "Arimo", sans-serif;
 }
 h1 {
+    text-align: center;
     text-shadow: 2px 2px 2px #C49C16;
-    position: absolute;
     top: 120px;
     transition: transform color 3s cubic-bezier(0.83, 0, 0.17, 1);
 }
@@ -41,7 +45,7 @@ p {
     text-decoration: underline #C49C16;
 }
 h2 {
-    text-align: center;
+    text-align: left;
     text-decoration: underline;
     text-decoration-color: #C49C16;
     font-family: "Alumni Sans SC", sans-serif;
@@ -50,7 +54,7 @@ h2 {
 }
 h3{
     position: relative;
-    margin-left: 40%;
+    margin-left: 5%;
 }
 hr {
     border: 0;
@@ -61,12 +65,12 @@ hr {
 table {
     text-decoration: underline #C49C16;
      position: relative;
-    margin-left: 40%;
+    margin-left: 5%;
 }
 ul {
     text-decoration: underline #C49C16;
     position: relative;
-    margin-left: 40%;
+    margin-left: 5%;
 }
 ul #projects {
     display: flexbox;
